@@ -4,7 +4,7 @@ import "./App.css";
 const App = () => {
   return (
     <div style={{ background: "black" }} className="cont">
-      <div className="container">
+      <div style={{ margin: "150px" }}>
         <span
           style={{
             color: "white",

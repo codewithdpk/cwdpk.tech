@@ -1,5 +1,6 @@
 .cont {
   height: 100%;
-  text-align: start;
-  padding: 100px 200px 100px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
