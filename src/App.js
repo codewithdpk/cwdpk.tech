@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div style={{ background: "black" }} className="cont">
+      <div className="container">
+        <span
+          style={{
+            color: "white",
+            fontWeight: "900",
+            fontSize: "80px",
+            marginRight: "200px",
+          }}
         >
-          Learn React
-        </a>
-      </header>
+          Hi 👋🏻 , I am Deepak Suthar. I am a Full Stack Developer 👨🏻‍💻 .
+        </span>
+      </div>
     </div>
   );
-}
+};
 
 export default App;
