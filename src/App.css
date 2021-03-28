@@ -3,4 +3,97 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0 100px;
+  flex-direction: row;
+  font-family: "Inter", sans-serif;
+}
+.cont-left-side {
+  width: 50%;
+  justify-content: left;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+}
+
+.cont-right-side {
+  width: 50%;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+}
+
+.download-resume-button {
+  padding: 10px 25px;
+  font-size: 18px;
+  color: white;
+  background: black;
+  border: 2px solid white;
+  border-radius: 40px;
+  align-self: flex-start;
+  margin-top: 20px;
+  font-family: "Inter", sans-serif;
+}
+
+.right-image {
+  width: 70%;
+  height: 70%;
+  align-self: end;
+}
+
+.hola-text {
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+  align-self: flex-start;
+}
+
+.introduction-text {
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  .cont {
+    flex-direction: column-reverse;
+    padding: 100px 50px 50px 50px;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  .cont-left-side {
+    justify-content: left;
+    width: 100%;
+  }
+  .cont-right-side {
+    justify-content: left;
+    width: 100%;
+  }
+  .right-image {
+    align-self: flex-start;
+    height: 160px;
+    width: 160px;
+    margin-left: -20px;
+  }
+
+  .hola-text {
+    width: 100%;
+    font-size: 60px;
+    margin: 10px 0;
+  }
+  .introduction-text {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  .download-resume-button {
+    width: 100%;
+
+    font-size: 18px;
+    color: white;
+    background: black;
+    border: 2px solid white;
+    border-radius: 40px;
+    align-self: flex-start;
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+  }
 }
