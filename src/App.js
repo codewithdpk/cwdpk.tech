@@ -19,7 +19,11 @@ const App = () => {
         </a>
       </div>
       <div className="cont-right-side">
-        <img src={"/my_face_memoji.png"} className="right-image" />
+        <img
+          src={"/my_face_memoji.png"}
+          className="right-image"
+          alt="codewithdeepak"
+        />
       </div>
     </div>
   );
