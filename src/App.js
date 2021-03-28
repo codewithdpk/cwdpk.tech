@@ -12,6 +12,7 @@ const App = () => {
         <a
           href="https://firebasestorage.googleapis.com/v0/b/goodsoulapp.appspot.com/o/Deepak-cv.pdf?alt=media&token=6e20cc28-b1b1-4f45-9f3c-768b7498ecc0"
           target="_blank"
+          rel="noopener noreferrer"
           style={{ alignSelf: "start", width: "100%" }}
         >
           <button className="download-resume-button">Download Resume 📄</button>
